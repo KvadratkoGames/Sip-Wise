@@ -1,0 +1,68 @@
+*{
+    background-color: #17202d;
+    color: white;
+}
+.main h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.safe_word {
+    color: #605cbe;
+}
+
+@media(max-width:768px){/*test 520 , 313, 768, 680, 600, 550, 727*//*768, 727 best tested*/
+    .main h1{
+        color: white;
+        font-size: 5rem;
+        text-align: center;
+    }
+    .safe_word {
+        color: #605cbe;
+    }
+    .card{
+        width: 100%;
+        height: 300px;
+        float: left;
+        
+        padding: 0.5rem;
+        
+    }
+    .card .logo_cup_1{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        float: left;
+        /*margin-left: 5%;*/
+    }
+    .card h2{
+        font-size: 2rem;
+        position: relative;
+        text-align: left;
+        left: 2.5%;
+        background: none;
+        color: white;
+    }
+    .card .text{
+        font-size: 1.25rem;
+        text-align: justify;
+        position: relative;
+        left: 2.5%;
+        background: none;
+        margin-right: 5%;
+    }
+    .pitch{
+        text-align: center;
+        color: rgb(174, 0, 255);
+    }
+    .button_call{
+        height: 5rem;
+        width: 10rem;
+        margin-top: 30px;
+        font-size: 1.5rem;
+        background-color:rgb(174, 0, 255);
+        color: white;
+        border-radius: 11px;
+    }
+    
+}
